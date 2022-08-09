@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+
+.bookCard {
+  margin: 0 50px;
+  background-color: #fff;
+  padding: 1px 20px 20px 20px;
+}
+
+.action-buttons button {
+  margin-right: 10px;
+  color: #4386bf;
+  font-weight: 300;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.panel-bg {
+  background-color: #fafafa;
+  margin: 0 50px;
+  padding-top: 25px;
+}
+
+.addBook {
+  background-color: #fafafa;
+  margin: 20px 50px;
+  padding-left: 50px;
+  padding-top: 15px;
+  border-top: 2px solid #e8e8e8;
+}
+
+.title {
+  width: 45%;
+  padding: 8px;
+  border: 1px solid #e8e8e8;
+  margin-right: 25px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.author {
+  width: 22%;
+  padding: 8px;
+  border: 1px solid #e8e8e8;
+  margin-right: 25px;
+  border-radius: 4px;
+}
+
+.addBook button {
+  width: 15%;
+  background-color: #0290ff;
+  color: #fff;
+  border: none;
+  height: 30px;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+}
