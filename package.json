@@ -53,18 +53,5 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
-  },
-  "description": "This website was built to learn Redux. The bookstore App was built to solidify the knowledge acquired in the process of learning.",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OyePriscilla/bookstore.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/OyePriscilla/bookstore/issues"
-  },
-  "homepage": "https://github.com/OyePriscilla/bookstore#readme"
+  }
 }
