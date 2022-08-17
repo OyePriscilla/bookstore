@@ -1,9 +1,23 @@
-import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { checkBookStatus } from '../redux/categories/categories';
 
-export default function Categories() {
+function Categories() {
+  const content = useSelector((state) => state.categories);
+
+  const dispatch = useDispatch();
+
+  const onCheckStatus = () => {
+    dispatch(checkBookStatus());
+  };
+
   return (
     <div>
-      <h2 style={{ marginLeft: '100px' }}>Under Construction</h2>
+      <button onClick={onCheckStatus} type="button" style={{ display: 'block', margin: '50px auto' }}>
+        Check Book Status
+      </button>
+      <p style={{ margin: '0 370px' }}>{content}</p>
     </div>
   );
 }
+
+export default Categories;
