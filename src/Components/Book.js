@@ -47,7 +47,7 @@ const Book = (props) => {
                   <p style={{ fontFamily: 'Montserrat, sans-serif' }}>Completed</p>
                 </div>
               </div>
-              <div className="progress">
+              <div style={{ marginRight: '40px' }} className="progress">
                 <p style={{
                   fontFamily: 'Roboto Slab, serif', fontSize: '13px', color: '#121212', opacity: '0.5',
                 }}
