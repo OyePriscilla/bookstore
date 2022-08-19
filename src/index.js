@@ -8,6 +8,9 @@ import Categories from './Pages/Categories';
 import './index.css';
 import App from './App';
 import BookStore from './Components/BookStore';
+import { loadBooks } from './redux/books/books';
+
+store.dispatch(loadBooks());
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
