@@ -20,7 +20,9 @@ const Header = (props) => {
   return (
     <div className="headerWrapper">
       <nav className="header" style={nav}>
-        <h2>{branding}</h2>
+        <h2>
+          <Link to="/">{branding}</Link>
+        </h2>
         <ul style={ul}>
           <li>
             <Link to="/">Books</Link>
