@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto+Slab:wght@100;200;300;500;600;700&display=swap");
+
 * {
   margin: 0;
+  list-style-type: none;
 }
 
 body {
@@ -12,6 +15,16 @@ body {
   padding: 1px 20px 20px 20px;
 }
 
+.addBook button {
+  width: 15%;
+  background-color: #0290ff;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
 .action-buttons button {
   margin-right: 10px;
   color: #4386bf;
@@ -19,6 +32,24 @@ body {
   border: none;
   background-color: inherit;
   cursor: pointer;
+  font-family: Roboto Slab, serif;
+  font-size: 14px;
+  border-right: 3px solid #e8e8e8;
+  padding-right: 15px;
+}
+
+.progress button {
+  color: #fff;
+  background-color: #0290ff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-family: Roboto Slab, serif;
+  font-size: 13px;
+}
+
+.action-buttons button:last-child {
+  border: none;
 }
 
 .panel-bg {
@@ -29,39 +60,73 @@ body {
 
 .addBook {
   background-color: #fafafa;
-  margin: 20px 50px;
+  margin: 20px 0 20px 50px;
   padding-left: 50px;
-  padding-top: 15px;
-  border-top: 2px solid #e8e8e8;
 }
 
 .title {
   width: 45%;
-  padding: 8px;
   border: 1px solid #e8e8e8;
   margin-right: 25px;
   border-radius: 4px;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding: 12px;
+  font-size: 16px;
 }
 
 .author {
   width: 22%;
-  padding: 8px;
   border: 1px solid #e8e8e8;
   margin-right: 25px;
   border-radius: 4px;
-}
-
-.addBook button {
-  width: 15%;
-  background-color: #0290ff;
-  color: #fff;
-  border: none;
-  height: 30px;
-  border-radius: 4px;
+  padding: 12px;
+  font-size: 16px;
 }
 
 input:focus {
   outline: none;
+}
+
+.bookInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.completePerCent {
+  margin-right: 60px;
+  display: flex;
+  align-items: center;
+  border-right: 3px solid #e8e8e8;
+  padding-right: 50px;
+}
+
+.completePerCent p:first-child {
+  font-size: 32px;
+  color: #121212;
+}
+
+.completePerCent p:last-child {
+  font-size: 16px;
+  color: #121212;
+  opacity: 0.5;
+}
+
+.cirleBar {
+  width: 59px;
+  height: 59px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 5px solid #307bbe;
+  border-left-color: #e8e8e8;
+  transform: rotate(45deg);
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 110px;
 }
