@@ -1,5 +1,5 @@
 # BookStore
-This website was built to learn Redux. The bookstore App was built to solidify the knowledge acquired in the process of learning.
+This website was built to learn Redux. The bookstore App was built to solidify the knowledge acquired in the process of learning. Online Bookstore where you can buy original copies of Foreign books as well as Nigerian books of all genres.
 
 ## Built With
 * HTML
